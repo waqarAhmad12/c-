@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void main()
+{
+int num;
+int check=1;
+cin>>num;
+for(int i=2;;i<num;i++)
+{
+if(i%num==0)
+{
+check=0;
+break;
+}
+
+}
+if(check == 0)
+{
+cout<<"Not Prime";
+}
+else
+{
+cout<<"prime";
+}
+getch();
+
+
+}
