@@ -6,8 +6,8 @@ main()
 {
 int a=9;
 int b=6;
-int result=a+b;
-cout<<result;
+i
+cout<<a+b; //cout is used to print data on consol
 
 getch();
 }
