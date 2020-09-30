@@ -1,0 +1,13 @@
+//Addition of two numbers
+
+#include<stdio.h>
+
+main()
+{
+int a=9;
+int b=6;
+int result=a+b;
+cout<<result;
+
+getch();
+}
